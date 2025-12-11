@@ -1,0 +1,199 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background: linear-gradient(135deg, #0a0f24, #1b1440);
+  color:white;
+}
+.header{
+  width:100%;
+  padding:20px 60px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  position:fixed;
+  top:0;
+  z-index:1000;
+  background: rgba(0,0,0,0.3);
+  backdrop-filter: blur(8px);
+}
+
+.logo{
+  font-size:26px;
+  font-weight:700;
+}
+
+.logo span{
+  color:#7a5cff;
+}
+
+.nav a{
+  margin-left:20px;
+  color:#ccc;
+  text-decoration:none;
+  transition:.2s;
+}
+
+.nav a:hover{
+  color:white;
+}
+.hero{
+  margin-top:80px;
+  height:90vh;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:60px;
+}
+
+.hero-text h1{
+  font-size:50px;
+}
+
+.highlight{
+  color:#9b7cff;
+}
+
+.subtitle{
+  margin:15px 0;
+  color:#aaa;
+}
+
+.buttons{
+  margin-top:20px;
+}
+
+.btn, .btn-outline{
+  padding:10px 20px;
+  border-radius:8px;
+  text-decoration:none;
+  margin-right:15px;
+  font-weight:600;
+}
+
+.btn{
+  background:#7a5cff;
+  color:white;
+}
+
+.btn-outline{
+  border:2px solid #7a5cff;
+  color:#7a5cff;
+}
+
+.hero-img img{
+  width:320px;
+  height:320px;
+  object-fit:cover;
+  border-radius:50%;
+  border:4px solid #7a5cff;
+}
+
+.about{
+  padding:80px 60px;
+  text-align:center;
+}
+
+.about-container{
+  margin-top:20px;
+  max-width:800px;
+  margin:auto;
+}
+
+.about-text{
+  line-height:1.7;
+  color:#ccc;
+}
+
+.skills{
+  padding:80px 60px;
+  background:#0d1230;
+}
+
+.skill{
+  margin-bottom:15px;
+}
+
+.skill p{
+  margin-bottom:5px;
+}
+
+.bar{
+  width:100%;
+  height:10px;
+  background:#222;
+  border-radius:5px;
+  overflow:hidden;
+}
+
+.bar span{
+  display:block;
+  height:100%;
+  background: linear-gradient(90deg, #7b5cff, #a78bfa);
+}
+
+.projects{
+  padding:80px 60px;
+}
+
+.project-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:20px;
+}
+
+.project-card{
+  background:#1a1f3c;
+  padding:20px;
+  border-radius:12px;
+  transition:.3s;
+}
+
+.project-card:hover{
+  transform:translateY(-10px);
+}
+
+.project-btn{
+  margin-top:10px;
+  display:inline-block;
+  color:#7a5cff;
+  text-decoration:none;
+  font-weight:600;
+}
+
+.contact{
+  padding:80px 60px;
+  background:#0d1230;
+  text-align:center;
+}
+
+.contact-form{
+  max-width:500px;
+  margin:auto;
+}
+
+.contact-form input,
+.contact-form textarea{
+  width:100%;
+  padding:12px;
+  margin-bottom:15px;
+  border-radius:8px;
+  border:none;
+  outline:none;
+}
+
+.contact-mail{
+  color:#aaa;
+  margin-top:10px;
+}
+
+.footer{
+  padding:20px;
+  text-align:center;
+  background:#090d24;
+  margin-top:40px;
+}
